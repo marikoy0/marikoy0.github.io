@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Basic Web Page</title>
+<style>
+  <title>Mariko Yonemura Personal Page</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+  .container {
+    position: relative;
+    height: 100vh;
+  }
+  .image {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    transform: translateY(30%);
+  }
+  body {
+    margin-left: 300px;
+    margin-right: 0;
+    width: fit-content;
+    padding-top: 15px;
+  }
+</style>
 </head>
+<div class="body">
 <body>
-  <h1>Hello World!</h1>
-  <h2>This is a level 2 header</h2>
-  <h6>This is a level 6 header</h6>
-  <a href="https://www.gonzaga.edu" target="_blank">Go to the Gonzaga homepage</a>
-  <p>This is <br><em>paragraph</em> <strong>text</strong></p>
+  <h1>Mariko Yonemura</h1>
+  <h3>Student at Gonzaga University</h3>
+  <div>
+  <h4>Personal projects:</h4>
+  <p>- Working on coding a cooking timer app</p>
+  <p>- Working on coding a cute schedule app</p>
+  </div>
+  <div>
+  <h4>Personal hobbies/facts:</h4>
+  <p>- Plays golf on Gonzaga University's team</p>
+  <p>- Dances, any genre</p>
+  <p>- Favorite book series: Roots of Chaos</p>
+  </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Gonzaga_Bulldogs_logo.svg/1200px-Gonzaga_Bulldogs_logo.svg.png" width="300"/>
-
+<img src="https://d2jpxbzntgxotn.cloudfront.net/images/2025/9/8/WGOLF_MD-8622.JPG?width=300" width="200" class="image"/>
+<a href="https://gozags.com/sports/womens-golf/roster" target="_blank">Go to Gonzaga Women's Golf Roster</a>
 </body>
+</div>
 </html>
+
